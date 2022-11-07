@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -12,14 +13,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d(TAG,"onCreate() called!")
-
-        val startButton: Button = findViewById(R.id.start)
-        val name: EditText = findViewById(R.id.nameInput);
+        val startButton: Button = findViewById(R.id.signIn)
+        val name: EditText = findViewById(R.id.nameInput)
         startButton.setOnClickListener {
-            Log.d(TAG, "button clicked!")
-            Log.d(TAG,name.getText().toString())
-            Toast.makeText(this,"clicked",Toast.LENGTH_LONG).show()
+            if (name.getText().toString().length > 0) {
+                val intent = Intent(this, SecondActivity::class.java)
+                intent.putExtra("UserName", name.text.toString())
+                startActivity(intent)
+            }
+            else{
+                Toast.makeText(this,"Insert your name",Toast.LENGTH_LONG).show()
+            }
         }
     }
 

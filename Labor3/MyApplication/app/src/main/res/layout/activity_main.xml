@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/signIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="240dp"
@@ -16,7 +16,7 @@
         android:bottomRightRadius="50dp"
         android:rotationX="-360"
         android:rotationY="-360"
-        android:text="Start"
+        android:text="Sign In"
         android:topLeftRadius="50dp"
         android:topRightRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,6 +54,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

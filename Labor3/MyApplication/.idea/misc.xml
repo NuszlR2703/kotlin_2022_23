@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20104166666666667" />
+        <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/layout/activity_m.xml" value="0.1" />
         <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
         <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/layout/activity_second.xml" value="0.2740036231884058" />
+        <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/layout/fragment_first_segment.xml" value="0.33" />
         <entry key="..\:/IV. EV/Android/kotlin_2022_23/Labor3/MyApplication/app/src/main/res/menu/bottom_menu.xml" value="0.20260416666666667" />
         <entry key="..\:/IV. EV/Android/kotlin_2022_23/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21875" />
         <entry key="..\:/IV. EV/Android/kotlin_2022_23/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21875" />
